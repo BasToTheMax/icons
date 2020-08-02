@@ -1,0 +1,16 @@
+icon {
+	background-repeat: no-repeat;
+	visibility: visible;
+	color: transparent;
+	text-indent: 1px;
+	letter-spacing: 0px;
+  }
+  icon::before {
+  	content: ";;;;";
+  }
+  
+  
+  
+  icon.user {
+  background-image: url('https://raw.githubusercontent.com/FortAwesome/Font-Awesome/951a0d011f8c832991750c16136f8e260efa60b5/svgs/regular/user.svg');
+  }
