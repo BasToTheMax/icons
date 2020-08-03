@@ -1,8 +1,6 @@
 console.log('loading ads');
 
 const ad = Math.floor(Math.random() * 101);
-document.writeln(loalDoc());
-
 function loadDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -14,3 +12,4 @@ function loadDoc() {
   xhttp.open("GET", "https://www.w3schools.com/js/ajax_info.txt", true);
   xhttp.send();
 }
+loadDoc();
