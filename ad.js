@@ -1,4 +1,4 @@
 console.log('loading ads');
 
-const ad = rand(0,1);
+const ad = Math.floor(Math.random() * 101;
 document.writeln(ad);
